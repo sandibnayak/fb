@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 944689,
+              "duration": 21761114091,
               "status": "passed"
             },
             "line": 4,
@@ -24,30 +24,22 @@
           },
           {
             "result": {
-              "duration": 2782320,
+              "duration": 560838510,
               "status": "passed"
             },
             "line": 5,
-            "name": "User have pass the user ID \u003cuser_id\u003e and password\u003cpass\u003e",
+            "name": "User have pass the user id and password",
             "match": {
-              "location": "FBLogin.user_have_pass_the_user_ID_user_id_and_password_pass(DataTable)"
+              "location": "FBLogin.user_have_pass_the_user_ID_user_id_and_password_pass()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "user_id1",
-                  "pass1"
-                ]
-              }
-            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 122309,
+              "duration": 5407641667,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "User need to click the login button",
             "match": {
               "location": "FBLogin.user_need_to_click_the_login_button()"
@@ -56,10 +48,10 @@
           },
           {
             "result": {
-              "duration": 97077,
+              "duration": 22141349112,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "Need to check user in fb Home Page",
             "match": {
               "location": "FBLogin.need_to_check_user_in_fb_Home_Page()"

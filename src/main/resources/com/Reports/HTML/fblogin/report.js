@@ -20,19 +20,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User have pass the user ID \u003cuser_id\u003e and password\u003cpass\u003e",
-  "rows": [
-    {
-      "cells": [
-        "user_id1",
-        "pass1"
-      ]
-    }
-  ],
+  "name": "User have pass the user id and password",
   "keyword": "When "
 });
 formatter.match({
-  "location": "FBLogin.user_have_pass_the_user_ID_user_id_and_password_pass(DataTable)"
+  "location": "FBLogin.user_have_pass_the_user_ID_user_id_and_password_pass()"
 });
 formatter.result({
   "status": "passed"
